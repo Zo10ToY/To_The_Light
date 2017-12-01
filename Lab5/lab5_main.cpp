@@ -57,7 +57,7 @@ int main()
 	cout << "¬ведiть h > 0 (крок табулюванн€): ";
 	cin >> h; system("color F0");
 	cout << "¬ведiть eps > 0 (точнiсть обчисленн€ суми): ";
-    cin >> eps;
+	cin >> eps; cout << endl;
 	cout << "¬и ввели: " << a << ", " << b << ", " << h << ", " << fixed << setprecision(10) << eps << endl;
 	cout << endl;
 
