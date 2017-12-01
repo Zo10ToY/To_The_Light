@@ -24,9 +24,9 @@ void tabulate (double a, double b, double h, double eps)
 	double x = a; 
 	double fx;
 	double Sx;
+	double run_prog = b - h / 100000;
 	firstLine();
 	cout << fixed;
-	double run_prog = b - h/100000;
 	
 	while (x < run_prog)
 	{
